@@ -1,0 +1,36 @@
+
+# Python virtual environment
+venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Uploaded and generated data
+backend/uploads/
+backend/generated-docs/
+
+# Python cache and test files
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# macOS files
+.DS_Store
+
+# Frontend dependencies and builds
+node_modules/
+dist/
+
+# Editor files
+.vscode/
+.idea/
